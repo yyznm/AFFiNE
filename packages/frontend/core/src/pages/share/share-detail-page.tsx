@@ -233,23 +233,9 @@ export const Component = () => {
                       pageId={page.id}
                       onLoad={onEditorLoad}
                     />
-                    {publishMode === 'page' ? <ShareFooter /> : null}
                   </Scrollable.Viewport>
                   <Scrollable.Scrollbar />
                 </Scrollable.Root>
-                {loginStatus !== 'authenticated' ? (
-                  <a
-                    href="https://affine.pro"
-                    target="_blank"
-                    className={styles.link}
-                    rel="noreferrer"
-                  >
-                    <span className={styles.linkText}>
-                      {t['com.affine.share-page.footer.built-with']()}
-                    </span>
-                    <Logo1Icon fontSize={20} />
-                  </a>
-                ) : null}
               </div>
             </div>
           </MainContainer>
