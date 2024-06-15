@@ -25,7 +25,7 @@ export function getRuntimeConfig(buildFlags: BuildFlags): RuntimeConfig {
       enableExperimentalFeature: false,
       enablePeekView: false,
       allowLocalWorkspace: buildFlags.distribution === 'desktop' ? true : false,
-      serverUrlPrefix: 'https://app.affine.pro',
+      serverUrlPrefix: 'https://n.yyzhu.vip',
       appVersion: packageJson.version,
       editorVersion: packageJson.devDependencies['@blocksuite/presets'],
       appBuildType: 'stable',
