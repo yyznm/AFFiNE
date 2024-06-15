@@ -34,14 +34,14 @@ export function getRuntimeConfig(buildFlags: BuildFlags): RuntimeConfig {
       return {
         ...this.stable,
         enablePageHistory: true,
-        serverUrlPrefix: 'https://insider.affine.pro',
+        serverUrlPrefix: 'https://n.yyzhu.vip',
         appBuildType: 'beta' as const,
       };
     },
     get internal() {
       return {
         ...this.stable,
-        serverUrlPrefix: 'https://insider.affine.pro',
+        serverUrlPrefix: 'https://n.yyzhu.vip',
         appBuildType: 'internal' as const,
       };
     },
